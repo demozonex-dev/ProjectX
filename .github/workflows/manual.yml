@@ -27,4 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Copy files
-      run: copy c:\test c:\test2
+      run: Copy-Item -Path c:\Test\*.* -Destination c:\Test2
