@@ -1,21 +1,28 @@
 VERSION 5.00
 Begin VB.Form Form1 
    Caption         =   "Form1"
-   ClientHeight    =   3015
+   ClientHeight    =   5385
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   4560
+   ClientWidth     =   12255
    LinkTopic       =   "Form1"
-   ScaleHeight     =   3015
-   ScaleWidth      =   4560
+   ScaleHeight     =   5385
+   ScaleWidth      =   12255
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command1 
       Caption         =   "go"
-      Height          =   1215
-      Left            =   1200
+      Height          =   855
+      Left            =   120
       TabIndex        =   0
+      Top             =   120
+      Width           =   1815
+   End
+   Begin VB.Image Image1 
+      Height          =   4620
+      Left            =   3240
+      Picture         =   "FrmX.frx":0000
       Top             =   720
-      Width           =   2295
+      Width           =   7110
    End
 End
 Attribute VB_Name = "Form1"
