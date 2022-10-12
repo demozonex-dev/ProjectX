@@ -34,7 +34,7 @@ Begin VB.Form Form1
       NoFolders       =   0   'False
       Transparent     =   0   'False
       ViewID          =   "{0057D0E0-3573-11CF-AE69-08002B2E1262}"
-      Location        =   ""
+      Location        =   "http:///"
    End
    Begin MSComDlg.CommonDialog CommonDialog1 
       Left            =   2160
@@ -77,6 +77,6 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Form_Load()
-WebBrowser1.Navigate ("https://www.microsoft.com")
+WebBrowser1.Navigate ("https://wwW.bing.fr")
 End Sub
 
