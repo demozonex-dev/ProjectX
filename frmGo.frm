@@ -17,14 +17,6 @@ Begin VB.Form frmGo
       Top             =   360
       Width           =   1695
    End
-   Begin VB.Image Image1 
-      Height          =   8760
-      Left            =   1560
-      Picture         =   "frmGo.frx":0000
-      Stretch         =   -1  'True
-      Top             =   -360
-      Width           =   16440
-   End
 End
 Attribute VB_Name = "frmGo"
 Attribute VB_GlobalNameSpace = False
@@ -35,6 +27,3 @@ Private Sub cmdGo_Click()
  MsgBox ("Bonjour le monde !!!")
 End Sub
 
-Private Sub Image1_Click()
-
-End Sub
