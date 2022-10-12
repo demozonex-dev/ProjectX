@@ -45,11 +45,11 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command1 
       Caption         =   "Color"
-      Height          =   855
-      Left            =   120
+      Height          =   2415
+      Left            =   720
       TabIndex        =   0
-      Top             =   120
-      Width           =   1815
+      Top             =   5160
+      Width           =   4215
    End
    Begin VB.Image Image1 
       Height          =   1620
