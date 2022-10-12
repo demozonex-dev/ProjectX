@@ -8,3 +8,4 @@
 
 # Declare files that will always have CRLF line endings on checkout.
 *.vbp text eol=crlf
+*.frm text eol=crlf
