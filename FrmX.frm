@@ -18,7 +18,7 @@ Begin VB.Form Form1
       _Version        =   393216
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "go"
+      Caption         =   "Color"
       Height          =   855
       Left            =   120
       TabIndex        =   0
@@ -42,8 +42,9 @@ Attribute VB_Exposed = False
 Private Sub Command1_Click()
  
  
- MsgBox ("Bonjour le monde !")
+ 
 
+ CommonDialog1.ShowColor
  
  
  
