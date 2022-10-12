@@ -16,7 +16,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Copy files and Build 
-      run: 
-        Copy-Item -Path c:\Test\*.* -Destination c:\Test2
+      run: C:\actions-runner\_work\CustomTools\CopyAndBuild.cmd
+        #Copy-Item -Path c:\Test\*.* -Destination c:\Test2
         
         
