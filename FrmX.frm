@@ -10,7 +10,7 @@ Begin VB.Form Form1
    ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command1 
-      Caption         =   "Command1"
+      Caption         =   "go"
       Height          =   1215
       Left            =   1200
       TabIndex        =   0
