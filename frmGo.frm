@@ -1,13 +1,13 @@
 VERSION 5.00
 Begin VB.Form frmGo 
    Caption         =   "ProjectX"
-   ClientHeight    =   5355
+   ClientHeight    =   9225
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   11100
+   ClientWidth     =   20790
    LinkTopic       =   "Form1"
-   ScaleHeight     =   5355
-   ScaleWidth      =   11100
+   ScaleHeight     =   9225
+   ScaleWidth      =   20790
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton cmdGo 
       Caption         =   "Go"
