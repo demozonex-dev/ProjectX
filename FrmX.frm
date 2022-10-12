@@ -9,9 +9,20 @@ Begin VB.Form Form1
    ScaleHeight     =   3015
    ScaleWidth      =   4560
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command1 
+      Caption         =   "Command1"
+      Height          =   1215
+      Left            =   1200
+      TabIndex        =   0
+      Top             =   720
+      Width           =   2295
+   End
 End
 Attribute VB_Name = "Form1"
 Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command1_Click()
+ MsgBox ("Bonjour le monde !")
+End Sub
