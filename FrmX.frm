@@ -1,24 +1,25 @@
 VERSION 5.00
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Object = "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}#1.1#0"; "ieframe.dll"
+Object = "{6BF52A50-394A-11D3-B153-00C04F79FAA6}#1.0#0"; "wmp.dll"
 Begin VB.Form Form1 
    Caption         =   "Form1"
-   ClientHeight    =   10860
+   ClientHeight    =   11295
    ClientLeft      =   120
    ClientTop       =   465
-   ClientWidth     =   20940
+   ClientWidth     =   25215
    LinkTopic       =   "Form1"
-   ScaleHeight     =   10860
-   ScaleWidth      =   20940
+   ScaleHeight     =   11295
+   ScaleWidth      =   25215
    StartUpPosition =   3  'Windows Default
    Begin SHDocVwCtl.WebBrowser WebBrowser1 
-      Height          =   8175
-      Left            =   5280
+      Height          =   11175
+      Left            =   8040
       TabIndex        =   1
-      Top             =   240
+      Top             =   120
       Width           =   15135
       ExtentX         =   26696
-      ExtentY         =   14420
+      ExtentY         =   19711
       ViewMode        =   0
       Offline         =   0
       Silent          =   0
@@ -45,18 +46,50 @@ Begin VB.Form Form1
    End
    Begin VB.CommandButton Command1 
       Caption         =   "Color"
-      Height          =   2415
-      Left            =   720
+      Height          =   1215
+      Left            =   120
       TabIndex        =   0
-      Top             =   5160
-      Width           =   4215
+      Top             =   360
+      Width           =   3015
+   End
+   Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
+      Height          =   3135
+      Left            =   360
+      TabIndex        =   2
+      Top             =   6720
+      Width           =   6975
+      URL             =   ""
+      rate            =   1
+      balance         =   0
+      currentPosition =   0
+      defaultFrame    =   ""
+      playCount       =   1
+      autoStart       =   -1  'True
+      currentMarker   =   0
+      invokeURLs      =   -1  'True
+      baseURL         =   ""
+      volume          =   50
+      mute            =   0   'False
+      uiMode          =   "full"
+      stretchToFit    =   0   'False
+      windowlessVideo =   0   'False
+      enabled         =   -1  'True
+      enableContextMenu=   -1  'True
+      fullScreen      =   0   'False
+      SAMIStyle       =   ""
+      SAMILang        =   ""
+      SAMIFilename    =   ""
+      captioningID    =   ""
+      enableErrorDialogs=   0   'False
+      _cx             =   12303
+      _cy             =   5530
    End
    Begin VB.Image Image1 
       Height          =   1620
-      Left            =   2760
+      Left            =   0
       Picture         =   "FrmX.frx":0000
       Stretch         =   -1  'True
-      Top             =   360
+      Top             =   3120
       Width           =   2055
    End
 End
