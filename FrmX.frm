@@ -47,9 +47,9 @@ Begin VB.Form Form1
    Begin VB.CommandButton Command1 
       Caption         =   "Color"
       Height          =   1215
-      Left            =   120
+      Left            =   3720
       TabIndex        =   0
-      Top             =   360
+      Top             =   3600
       Width           =   3015
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
