@@ -43,7 +43,7 @@ Begin VB.Form Form1
       NoFolders       =   0   'False
       Transparent     =   0   'False
       ViewID          =   "{0057D0E0-3573-11CF-AE69-08002B2E1262}"
-      Location        =   ""
+      Location        =   "http:///"
    End
    Begin MSComDlg.CommonDialog CommonDialog1 
       Left            =   2160
@@ -94,10 +94,10 @@ Begin VB.Form Form1
    End
    Begin VB.Image Image1 
       Height          =   1620
-      Left            =   0
+      Left            =   5040
       Picture         =   "FrmX.frx":0000
       Stretch         =   -1  'True
-      Top             =   3120
+      Top             =   4680
       Width           =   2055
    End
 End
