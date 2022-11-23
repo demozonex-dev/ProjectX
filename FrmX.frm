@@ -12,6 +12,14 @@ Begin VB.Form Form1
    ScaleHeight     =   11295
    ScaleWidth      =   25215
    StartUpPosition =   3  'Windows Default
+   Begin VB.CommandButton Command2 
+      Caption         =   "Command2"
+      Height          =   1215
+      Left            =   3960
+      TabIndex        =   3
+      Top             =   2520
+      Width           =   3255
+   End
    Begin SHDocVwCtl.WebBrowser WebBrowser1 
       Height          =   11175
       Left            =   8040
@@ -107,6 +115,10 @@ Private Sub Command1_Click()
  
  
  
+End Sub
+
+Private Sub Command2_Click()
+MsgBox ("Hello Gauche")
 End Sub
 
 Private Sub Form_Load()
