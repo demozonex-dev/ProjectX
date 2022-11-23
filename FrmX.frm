@@ -43,7 +43,7 @@ Begin VB.Form Form1
       NoFolders       =   0   'False
       Transparent     =   0   'False
       ViewID          =   "{0057D0E0-3573-11CF-AE69-08002B2E1262}"
-      Location        =   "http:///"
+      Location        =   ""
    End
    Begin MSComDlg.CommonDialog CommonDialog1 
       Left            =   2160
@@ -118,7 +118,11 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Command2_Click()
-MsgBox ("Hello Gauche 2")
+
+MsgBox ("Hello Gauche 2 et Droite 1")
+
+
+
 End Sub
 
 Private Sub Form_Load()
