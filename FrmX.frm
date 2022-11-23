@@ -119,7 +119,7 @@ End Sub
 
 Private Sub Command2_Click()
 
-MsgBox ("Hello Gauche 2 et Droite 1")
+MsgBox ("Hello Gauche 3 et Droite 1 ")
 
 
 
