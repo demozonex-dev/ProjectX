@@ -15,7 +15,7 @@ Begin VB.Form Form1
    Begin VB.CommandButton Command2 
       Caption         =   "Command2"
       Height          =   1215
-      Left            =   3960
+      Left            =   4440
       TabIndex        =   3
       Top             =   2520
       Width           =   3255
@@ -60,6 +60,13 @@ Begin VB.Form Form1
       Top             =   600
       Width           =   3015
    End
+   Begin VB.Image Image2 
+      Height          =   2460
+      Left            =   240
+      Picture         =   "FrmX.frx":0000
+      Top             =   2040
+      Width           =   3735
+   End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
       Left            =   360
@@ -95,7 +102,7 @@ Begin VB.Form Form1
    Begin VB.Image Image1 
       Height          =   1620
       Left            =   5040
-      Picture         =   "FrmX.frx":0000
+      Picture         =   "FrmX.frx":271F
       Stretch         =   -1  'True
       Top             =   4680
       Width           =   2055
@@ -129,3 +136,6 @@ Private Sub Form_Load()
 WebBrowser1.Navigate ("https://wwW.bing.fr")
 End Sub
 
+Private Sub Image2_Click()
+
+End Sub
