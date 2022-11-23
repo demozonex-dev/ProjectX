@@ -60,13 +60,6 @@ Begin VB.Form Form1
       Top             =   600
       Width           =   3015
    End
-   Begin VB.Image Image2 
-      Height          =   2460
-      Left            =   240
-      Picture         =   "FrmX.frx":0000
-      Top             =   2040
-      Width           =   3735
-   End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
       Left            =   360
@@ -102,7 +95,7 @@ Begin VB.Form Form1
    Begin VB.Image Image1 
       Height          =   1620
       Left            =   5040
-      Picture         =   "FrmX.frx":271F
+      Picture         =   "FrmX.frx":0000
       Stretch         =   -1  'True
       Top             =   4680
       Width           =   2055
@@ -126,8 +119,8 @@ End Sub
 
 Private Sub Command2_Click()
 
-MsgBox ("Hello Gauche 3 et Droite 2 ")
 
+MsgBox ("Hello Gauche 4 et Droite 2 ")
 
 
 End Sub
