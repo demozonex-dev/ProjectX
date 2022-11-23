@@ -21,13 +21,13 @@ Begin VB.Form Form1
       Width           =   3255
    End
    Begin SHDocVwCtl.WebBrowser WebBrowser1 
-      Height          =   11175
-      Left            =   8040
+      Height          =   7335
+      Left            =   16320
       TabIndex        =   1
-      Top             =   120
-      Width           =   15135
-      ExtentX         =   26696
-      ExtentY         =   19711
+      Top             =   3960
+      Width           =   6855
+      ExtentX         =   12091
+      ExtentY         =   12938
       ViewMode        =   0
       Offline         =   0
       Silent          =   0
@@ -59,6 +59,13 @@ Begin VB.Form Form1
       TabIndex        =   0
       Top             =   600
       Width           =   3015
+   End
+   Begin VB.Image Image2 
+      Height          =   7680
+      Left            =   8280
+      Picture         =   "FrmX.frx":0000
+      Top             =   1680
+      Width           =   7680
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
@@ -95,7 +102,7 @@ Begin VB.Form Form1
    Begin VB.Image Image1 
       Height          =   1620
       Left            =   5040
-      Picture         =   "FrmX.frx":0000
+      Picture         =   "FrmX.frx":3DAB
       Stretch         =   -1  'True
       Top             =   4680
       Width           =   2055
@@ -119,8 +126,8 @@ End Sub
 
 Private Sub Command2_Click()
 
-MsgBox ("Hello Gauche 5 et Droite 2 ")
 
+MsgBox ("Hello Gauche 5 et Droite 2 ")
 
 
 End Sub
