@@ -136,6 +136,3 @@ Private Sub Form_Load()
 WebBrowser1.Navigate ("https://wwW.bing.fr")
 End Sub
 
-Private Sub Image2_Click()
-
-End Sub
