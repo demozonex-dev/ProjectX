@@ -118,7 +118,7 @@ Private Sub Command1_Click()
 End Sub
 
 Private Sub Command2_Click()
-MsgBox ("Hello Gauche")
+MsgBox ("Hello Gauche 2")
 End Sub
 
 Private Sub Form_Load()
