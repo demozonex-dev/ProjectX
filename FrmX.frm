@@ -5,15 +5,15 @@ Object = "{6BF52A50-394A-11D3-B153-00C04F79FAA6}#1.0#0"; "wmp.dll"
 Begin VB.Form Form1 
    Caption         =   "Form1"
    ClientHeight    =   11295
-   ClientLeft      =   120
-   ClientTop       =   465
-   ClientWidth     =   25215
+   ClientLeft      =   225
+   ClientTop       =   570
+   ClientWidth     =   18960
    LinkTopic       =   "Form1"
    ScaleHeight     =   11295
-   ScaleWidth      =   25215
+   ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Command2"
+      Caption         =   "Rouge"
       Height          =   1215
       Left            =   4440
       TabIndex        =   3
