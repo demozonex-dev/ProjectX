@@ -1,16 +1,8 @@
 # ProjectX 
 
-BranchB
-
-BranchB
-
-Orange 
 
 
-BranchA
+Orange2 Orange2 
 
-BranchA
 
-Utlisation des actions
 
-Test CI/CD
