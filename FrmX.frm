@@ -13,7 +13,7 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Purple"
+      Caption         =   "Blue"
       Height          =   1215
       Left            =   4680
       TabIndex        =   3
@@ -61,11 +61,11 @@ Begin VB.Form Form1
       Width           =   3015
    End
    Begin VB.Image Image2 
-      Height          =   2145
+      Height          =   3120
       Left            =   8280
       Picture         =   "FrmX.frx":0000
       Top             =   1680
-      Width           =   2310
+      Width           =   2955
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
