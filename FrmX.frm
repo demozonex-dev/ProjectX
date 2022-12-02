@@ -13,11 +13,11 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Green"
+      Caption         =   "Purple"
       Height          =   1215
-      Left            =   4440
+      Left            =   4680
       TabIndex        =   3
-      Top             =   2520
+      Top             =   360
       Width           =   3255
    End
    Begin SHDocVwCtl.WebBrowser WebBrowser1 
@@ -62,9 +62,9 @@ Begin VB.Form Form1
    End
    Begin VB.Image Image2 
       Height          =   2145
-      Left            =   8280
+      Left            =   8160
       Picture         =   "FrmX.frx":0000
-      Top             =   1680
+      Top             =   240
       Width           =   2310
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
@@ -127,7 +127,7 @@ End Sub
 Private Sub Command2_Click()
 
 
-MsgBox ("Green 4")
+MsgBox ("Purple")
 
 
 End Sub
