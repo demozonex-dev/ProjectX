@@ -1,11 +1,8 @@
 # ProjectX
 
-Rouge 
+Green 
 
 
-BranchA
-
-BranchA
 
 Utlisation des actions
 
