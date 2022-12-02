@@ -127,7 +127,7 @@ End Sub
 Private Sub Command2_Click()
 
 
-MsgBox ("Hello Gauche 5 et Droite 2 ")
+MsgBox ("Rouge")
 
 
 End Sub
