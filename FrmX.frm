@@ -13,7 +13,7 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Purple"
+      Caption         =   "Orange"
       Height          =   1215
       Left            =   4680
       TabIndex        =   3
