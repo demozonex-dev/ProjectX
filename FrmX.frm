@@ -13,7 +13,7 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Rouge"
+      Caption         =   "Green"
       Height          =   1215
       Left            =   4440
       TabIndex        =   3
@@ -61,11 +61,11 @@ Begin VB.Form Form1
       Width           =   3015
    End
    Begin VB.Image Image2 
-      Height          =   3120
+      Height          =   2145
       Left            =   8280
       Picture         =   "FrmX.frx":0000
       Top             =   1680
-      Width           =   2955
+      Width           =   2310
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
@@ -102,7 +102,7 @@ Begin VB.Form Form1
    Begin VB.Image Image1 
       Height          =   1620
       Left            =   5040
-      Picture         =   "FrmX.frx":1E142
+      Picture         =   "FrmX.frx":10372
       Stretch         =   -1  'True
       Top             =   4680
       Width           =   2055
@@ -127,7 +127,7 @@ End Sub
 Private Sub Command2_Click()
 
 
-MsgBox ("Hello Gauche 5 et Droite 2 ")
+MsgBox ("Green")
 
 
 End Sub
