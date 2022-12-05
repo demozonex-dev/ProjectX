@@ -13,21 +13,21 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Orange"
+      Caption         =   "Blue"
       Height          =   1215
-      Left            =   4680
+      Left            =   4800
       TabIndex        =   3
-      Top             =   360
+      Top             =   2760
       Width           =   3255
    End
    Begin SHDocVwCtl.WebBrowser WebBrowser1 
-      Height          =   7335
-      Left            =   16320
+      Height          =   3975
+      Left            =   11880
       TabIndex        =   1
-      Top             =   3960
-      Width           =   6855
-      ExtentX         =   12091
-      ExtentY         =   12938
+      Top             =   1080
+      Width           =   3375
+      ExtentX         =   5953
+      ExtentY         =   7011
       ViewMode        =   0
       Offline         =   0
       Silent          =   0
@@ -61,17 +61,17 @@ Begin VB.Form Form1
       Width           =   3015
    End
    Begin VB.Image Image2 
-      Height          =   2145
+      Height          =   3120
       Left            =   8280
       Picture         =   "FrmX.frx":0000
       Top             =   1680
-      Width           =   2310
+      Width           =   2955
    End
    Begin WMPLibCtl.WindowsMediaPlayer WindowsMediaPlayer1 
       Height          =   3135
-      Left            =   360
+      Left            =   6120
       TabIndex        =   2
-      Top             =   6720
+      Top             =   6360
       Width           =   6975
       URL             =   ""
       rate            =   1
@@ -99,13 +99,6 @@ Begin VB.Form Form1
       _cx             =   12303
       _cy             =   5530
    End
-   Begin VB.Image Image1 
-      Height          =   1620
-      Left            =   5040
-      Stretch         =   -1  'True
-      Top             =   4680
-      Width           =   2055
-   End
 End
 Attribute VB_Name = "Form1"
 Attribute VB_GlobalNameSpace = False
@@ -126,7 +119,7 @@ End Sub
 Private Sub Command2_Click()
 
 
-MsgBox ("Hello Gauche 5 et Droite 2 ")
+MsgBox ("Blue")
 
 
 End Sub
