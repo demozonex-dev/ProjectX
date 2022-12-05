@@ -13,7 +13,7 @@ Begin VB.Form Form1
    ScaleWidth      =   18960
    StartUpPosition =   3  'Windows Default
    Begin VB.CommandButton Command2 
-      Caption         =   "Blue"
+      Caption         =   "DEV1"
       Height          =   1215
       Left            =   4800
       TabIndex        =   3
@@ -119,7 +119,7 @@ End Sub
 Private Sub Command2_Click()
 
 
-MsgBox ("Blue")
+MsgBox ("Dev1")
 
 
 End Sub
